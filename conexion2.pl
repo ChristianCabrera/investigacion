@@ -1,0 +1,13 @@
+conexion(b,2).
+conexion(b,c).
+conexion(2,4).
+conexion(2,6).
+conexion(2,3).
+conexion(2,5).
+conexion(6,7).
+conexion(6,8).
+conexion(3,5).
+conexion(7,8).
+conexion(8,a).
+conexion(5,c).
+arista(X):-conexion(X,_).

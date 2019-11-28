@@ -1,0 +1,18 @@
+aspectos de la conversion de digital a analogica
+-tasa de baudios:
+es el numero de unidaddes de selal por segundo 
+
+señal portadora
+es la transmision analogica, el dispositivo emisor produce una señal de alta 
+frecuencia que actua como base para señal de informacion. esta señal base se 
+denomina señal portadora o frecuencia portadora
+
+modulacion por desplazamineto de amplitud(ASK)
+en esta modulacion, la potencia de la señal portadora se cambia para 
+representar el 1 o 0 binario. tanto la frecuencia como la permanecen constatnte
+
+ancho de banda de ASK
+ancho de n¿banda de una señal es le rango total de frecuencia ocupados por esa 
+señal	
+los requisitos de ancho de banda se calculan usando 
+BW=(1+d)x N

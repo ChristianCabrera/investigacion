@@ -1,0 +1,77 @@
+Cabrera Ornelas Christian Rafael
+5.a T/M
+ing. Software
+
+
+2.
+dueno(micho,maria).
+dueno(leobardo,isabel).
+dueno(nana,juan).
+dueno(rex,juan).
+dueno(rapunzel,isabel).
+dueno(kitty,jose).
+perro(micho).
+perro(leobardo).
+perro(nana).
+gato(rex).
+gato(rapunzel).
+gato(kitty).
+mascota(micho,maria).
+mascota(leobardo,isabel).
+mascota(nana,juan).
+mascota(rex,juan).
+mascota(rapunsel,isabel).
+mascota(kitty,jose).
+pepe(guacamaya).
+dueno(jose,kitty).
+
+-?- mascota(X,juan).
+X = nana ;
+X = rex.
+
+-?- dueno(X,kitty).
+X = jose.
+
+-?- perro(Perro).
+Perro = micho ;
+Perro = leobardo ;
+Perro = nana.
+
+-?- pepe(guacamaya).
+true.
+
+3.
+progenitor(esmeralda,francisca).
+progenitor(julio,francisca).
+progenitor(frida,moises).
+progenitor(frida,ileana).
+progenitor(frida,will).
+progenitor(frida,lucy).
+progenitor(moises,moisesj).
+progenitor(moises,valentina).
+progenitor(moises,alejandra).
+progenitor(francisca,moisesj).
+progenitor(francisca,valentina).
+progenitor(francisca,alejandra).
+papa(francisca,julio).
+hijos(moisesj,francisca).
+hijos(valentina,francisca).
+hijos(alejandra,francisca).
+hijos(moises,frida).
+hijos(ileana,frida).
+hijos(will,frida).
+hijos(lucy,frida).
+
+?- hijos(X,frida).
+X = moises ;
+X = ileana ;
+X = will ;
+X = lucy.
+
+?- julio(X,papa).
+X = francisca.
+
+??- hijos(X,francisca).
+X = moisesj ;
+X = valentina ;
+X = alejandra.

@@ -1,0 +1,17 @@
+bisabuelo(catarino,christian).
+bisabuelo(jose,christian).
+bisabuelo(monica,christian).
+bisabuelo(martha,christian).
+abuelo(catarino,christian).
+abuelo(rafael,christian).
+abuelo(angeles,christian).
+abuelo(maria,christian).
+progenitor(pascua,christian).
+progenitor(rafael,christian).
+progenitor(rafael,rafael).
+progenitor(maria,rafael).
+progenitor(catarino,pascua).
+progebitor(angeles,pascua).
+progenitor(martha,angeles).
+progenitor(jose,angeles).
+progenitor().
